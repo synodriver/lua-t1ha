@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.20)
 project(lua_t1ha C)
 
 set(CMAKE_C_STANDARD 11)
-set(CMAKE_C_FLAGS "-march=native")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -march=native")
 include_directories(F:/conda/Library/include ./dep)
 link_directories("F:\\conda\\Library\\lib" F:/conda/Library/bin)
 
